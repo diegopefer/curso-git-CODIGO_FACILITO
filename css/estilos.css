@@ -1,0 +1,140 @@
+/* tamaño fuente para html total */
+html{
+  font-size: 15px;
+}
+
+/* estilos bloque bienvenidos */
+
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.navbar-fixed-top{
+  background: rgba(0, 0, 0, 0.60);
+
+}
+
+/* personalizando estilos de bootstrap */
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.8) !important;/*con el !important coge nuestro estilo personalizado*/
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: rgba(255, 253, 253, 0.9);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-toggler {
+    font-size: 1.6rem !important;
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+    text-align: center;
+    padding: .7rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+    background: #F05F40;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 1) !important;
+    background: #F05F40;
+}
+
+#menuprincipal{
+  clear:both;
+}
+
+.texto-bienvenido{
+  margin-top: 9rem;
+  color: #fff;
+}
+
+.btn.btn-primary.btn-lg.boton{
+  background-color: #F05F40;
+  border-color: #F05F40;
+  transition: all .5s ease;
+}
+
+.btn.btn-primary.btn-lg.boton:hover {
+    background-color: #f17f66;
+    border-color: #F05F40;
+}
+
+/* estilos bloque quienes somos */
+.quienes-somos{
+  background: #F05F40;
+  color:#fff;
+
+}
+
+.servicios .fas{
+  color: #F05F40;
+  font-size: 6rem;
+}
+
+.servicios h3{
+  font-weight: bold;
+}
+
+/*estilos ultimos proyectos*/
+.ultimos-proyectos{
+  background: #424141;
+  color: #fff;
+}
+
+.ultimos-proyectos a{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.ultimos-proyectos a:hover img{
+    transform: scale(1.5);
+    transition: all .3s ease;
+}
+
+/* estilos pie de pagina(footer) */
+.footer{
+  background: #222222;
+  color: #fff;
+}
+
+
+/* medias queries */
+
+@media (min-width: 768px){
+
+  html{
+    font-size: 16px;
+  }
+  #menuprincipal{
+    clear:inherit;
+  }
+
+  .bienvenidos {
+    background: url("../images/fondo_bienvenido_grande.jpg");
+    background-size: cover;
+
+    .logog
+
+  }
+
+}
